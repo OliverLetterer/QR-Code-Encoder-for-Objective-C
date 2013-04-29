@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, '5.0'
   spec.license      = 'Apache'
   spec.source       = { :git => 'https://github.com/OliverLetterer/QR-Code-Encoder-for-Objective-C.git', :tag => spec.version.to_s }
-  spec.source_files = 'QRCodeEncoderObjectiveCAtGithub/*.{h,m,mm}'
+  spec.source_files = 'QRCodeEncoderObjectiveCAtGithub/*.{h,m,mm,cpp}'
   spec.frameworks   = 'Foundation', 'UIKit'
   spec.requires_arc = false
   spec.homepage     = 'https://github.com/OliverLetterer/QR-Code-Encoder-for-Objective-C'
